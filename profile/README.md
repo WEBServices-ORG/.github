@@ -3,9 +3,9 @@
 Apple-grade software factory for shipping native macOS products.
 
 ## What we build
-- **Native macOS apps** (Swift / SwiftUI)
-- **Developer tooling**
-- **Automation pipelines**
+- Native macOS apps (Swift / SwiftUI)
+- Developer tools & automation
+- Production pipelines with deterministic output
 
 ## Factory (source of truth)
 - **factory-dev** — `dev` CLI (bootstrap / doctor / new / publish / ship)
@@ -13,8 +13,8 @@ Apple-grade software factory for shipping native macOS products.
 - **DemoApp12** — end-to-end reference output from the factory
 
 ## Standards
-- Deterministic toolchains with **mise** (repo-local)
-- Deterministic generation with **Tuist**
+- Repo-local toolchain via **mise**
+- Deterministic generation via **Tuist**
 - Quality gates: **swiftformat + swiftlint + tests**
 - CI on **macos-15** for every push/PR
 
